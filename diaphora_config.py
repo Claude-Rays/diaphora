@@ -224,3 +224,9 @@ SHOW_IMPORT_WARNINGS = True
 #-------------------------------------------------------------------------------
 # Workarounds for IDA bugs
 DIAPHORA_WORKAROUND_MAX_TINFO_T = False
+
+#-------------------------------------------------------------------------------
+# Ghidra specific options
+#
+# Maximum number of seconds the Ghidra decompiler can use for a single function.
+GHIDRA_DECOMPILER_TIMEOUT = 60
